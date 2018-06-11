@@ -1,6 +1,5 @@
 .navbar-brand {
-  padding: 15px 100px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .jumbotron {
@@ -13,4 +12,18 @@
 
 span {
   color: green;
+}
+
+@media (max-width: 450px) {
+ h2 {
+   font-size: 27px;
+ }
+
+ .jumbotron {
+   width: 360px;
+ }
+
+ .btn {
+   font-size: 15px;
+ }
 }
