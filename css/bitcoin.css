@@ -14,7 +14,7 @@ span {
   color: green;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
  h2 {
    font-size: 27px;
  }
